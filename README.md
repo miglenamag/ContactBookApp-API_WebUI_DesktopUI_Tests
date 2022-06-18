@@ -2,9 +2,9 @@
 
 This repository includes API and UI automated tests for Contact Book information system for managing contacts as follow:
 
-1. RESTful API - using NUnit, RestSharp, Postman
-2. Web client app -  NUnit Selenium Web Driver tests
-3. Desktop client app - NUnit Appium tests using Appium Desktop, Windows Application Driver and WinAppDriver UI Recorder.
+1. RESTful API -  API tests using NUnit, RestSharp, Postman
+2. Web client app - Selenium Web UI tests (NUnit + Selenium Web Driver + Chrome Driver)
+3. Windows Desktop client app - UI tests based on NUnit, Appium Desktop, Windows Application Driver and WinAppDriver UI Recorder.
 
 These are project assets:
 
