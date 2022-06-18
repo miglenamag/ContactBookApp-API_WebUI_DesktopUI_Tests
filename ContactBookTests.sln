@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactBookAPITests", "ContactBookAPITests\ContactBookAPITests.csproj", "{223B20D2-0556-4064-9162-DE5255EBE93E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactBookWebDriverTests", "ContactBookWebDriverTests\ContactBookWebDriverTests.csproj", "{ED45886E-2D9E-430C-9133-A470C707277B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactBook-DesktopClientTests", "ContactBook-DesktopClientTests\ContactBook-DesktopClientTests.csproj", "{3EB9A952-D0E6-44A1-8F73-3377D6DCD492}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContactBook RESTful API", "ContactBook RESTful API", "{5470DE21-1962-4220-8812-38755DCEB005}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContactBook Web Selenium UI Tests", "ContactBook Web Selenium UI Tests", "{2AB41E55-D7A7-4F27-9CF9-14C0F9E95C4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContactBook Desktop Appium UI Tests", "ContactBook Desktop Appium UI Tests", "{D7FB5D3C-9B09-42DB-B3E1-5EBBE9603C37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{223B20D2-0556-4064-9162-DE5255EBE93E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{223B20D2-0556-4064-9162-DE5255EBE93E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{223B20D2-0556-4064-9162-DE5255EBE93E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{223B20D2-0556-4064-9162-DE5255EBE93E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED45886E-2D9E-430C-9133-A470C707277B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED45886E-2D9E-430C-9133-A470C707277B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED45886E-2D9E-430C-9133-A470C707277B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED45886E-2D9E-430C-9133-A470C707277B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EB9A952-D0E6-44A1-8F73-3377D6DCD492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EB9A952-D0E6-44A1-8F73-3377D6DCD492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EB9A952-D0E6-44A1-8F73-3377D6DCD492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EB9A952-D0E6-44A1-8F73-3377D6DCD492}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{223B20D2-0556-4064-9162-DE5255EBE93E} = {5470DE21-1962-4220-8812-38755DCEB005}
+		{ED45886E-2D9E-430C-9133-A470C707277B} = {2AB41E55-D7A7-4F27-9CF9-14C0F9E95C4B}
+		{3EB9A952-D0E6-44A1-8F73-3377D6DCD492} = {D7FB5D3C-9B09-42DB-B3E1-5EBBE9603C37}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFEE835E-4626-4223-87DC-411DBA43D9C2}
+	EndGlobalSection
+EndGlobal
